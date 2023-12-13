@@ -17,5 +17,13 @@ locals {
       topics             = ["terraform", "github", "automation"]
       visibility         = "public"
     }
+
+    "deepf-terraform-aws" = {
+      description        = "Automation for aws"
+      gitignore_template = "Terraform"
+      name               = "deepf-terraform-aws"
+      topics             = ["terraform", "aws", "automation"]
+      visibility         = "public"
+    }
   }
 }
