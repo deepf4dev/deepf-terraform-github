@@ -25,13 +25,5 @@ locals {
       topics             = ["terraform", "aws", "automation"]
       visibility         = "public"
     }
-
-    "deepf-frontend" = {
-      description        = "Automation for frontend"
-      gitignore_template = "React"
-      name               = "deepf-frontend"
-      topics             = ["terraform", "frontend", "automation"]
-      visibility         = "public"
-    }
   }
 }
