@@ -6,7 +6,7 @@ locals {
       gitignore_template = "Terraform"
       name               = "deepf-terraform-tfe"
       topics             = ["terraform", "tfe", "automation"]
-      visibility         = "public"
+      visibility         = "private"
     }
 
 
@@ -15,7 +15,7 @@ locals {
       gitignore_template = "Terraform"
       name               = "deepf-terraform-github"
       topics             = ["terraform", "github", "automation"]
-      visibility         = "public"
+      visibility         = "private"
     }
 
     "deepf-terraform-aws" = {
@@ -23,7 +23,15 @@ locals {
       gitignore_template = "Terraform"
       name               = "deepf-terraform-aws"
       topics             = ["terraform", "aws", "automation"]
-      visibility         = "public"
+      visibility         = "private"
+    }
+
+    "deepf-frontend" = {
+      description        = "The fontend part of the deepf project"
+      gitignore_template = "React"
+      name               = "deepf-frontend"
+      topics             = ["React", "Frontend", "automation", "APIs"]
+      visibility         = "private"
     }
   }
 }
