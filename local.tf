@@ -28,7 +28,7 @@ locals {
 
     "deepf-frontend" = {
       description        = "Automation for frontend"
-      gitignore_template = "Terraform"
+      gitignore_template = "React"
       name               = "deepf-frontend"
       topics             = ["terraform", "frontend", "automation"]
       visibility         = "public"
