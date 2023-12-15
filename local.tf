@@ -30,7 +30,7 @@ locals {
       description        = "The fontend part of the deepf project"
       gitignore_template = "React"
       name               = "deepf-frontend"
-      topics             = ["React", "Frontend", "automation", "APIs"]
+      topics             = ["react", "frontend", "automation", "api"]
       visibility         = "private"
     }
   }
